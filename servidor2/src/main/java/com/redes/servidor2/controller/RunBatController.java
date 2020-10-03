@@ -12,7 +12,7 @@ public class RunBatController {
 	@GetMapping
 	public String runBat() throws IOException {
 		Runtime.getRuntime().exec("cmd /c hello.bat", null,
-				new File("C:\\Users\\Anderson Vargas\\Desktop\\ADVM\\Poli\\REDES\\SOCKET\\socket-tcp-java\\"));
+				new File("./"));
 		return "sucess";
 	}
 }
